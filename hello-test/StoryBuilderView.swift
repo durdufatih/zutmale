@@ -83,8 +83,8 @@ struct StoryBuilderView: View {
                     }
                     .background(Color(.systemBlue).opacity(0.04))
                     Button(action: {
-                        var name = characterName.isEmpty ? "a little hero" : characterName
-                        var prompt = "Write a children's story for a child aged \(selectedAge) about the theme of \(selectedTheme.lowercased()). The main character's name is \(name). The story should be \(storyLength.lowercased()) in length."
+                        let name = characterName.isEmpty ? "a little hero" : characterName
+                        let prompt = "Write a children's story for a child aged \(selectedAge) about the theme of \(selectedTheme.lowercased()). The main character's name is \(name). The story should be \(storyLength.lowercased()) in length."
                         Task {
                             isLoading = true
                             let result = await onGenerate(prompt)
