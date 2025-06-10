@@ -33,23 +33,6 @@ struct WelcomeView: View {
                             .shadow(color: Color.purple.opacity(0.2), radius: 8, x: 0, y: 4)
                     }
                     .padding(.horizontal, 36)
-                    HStack(spacing: 24) {
-                        NavigationLink(destination: LoginView()) {
-                            Text("Login")
-                                .font(.body)
-                                .foregroundColor(Color.purple)
-                                .underline()
-                        }
-                        Divider()
-                            .frame(height: 18)
-                        NavigationLink(destination: SignUpView()) {
-                            Text("Sign Up")
-                                .font(.body)
-                                .foregroundColor(Color.purple)
-                                .underline()
-                        }
-                    }
-                    .padding(.top, 8)
                     Spacer()
                 }
                 .padding(.vertical, 32)
