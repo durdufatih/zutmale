@@ -274,7 +274,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetfatihdurdu.hello-test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehmetfatihdurdu.zutmale;
 				PRODUCT_NAME = Zutmale;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -313,7 +313,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetfatihdurdu.hello-test";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehmetfatihdurdu.zutmale;
 				PRODUCT_NAME = Zutmale;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
