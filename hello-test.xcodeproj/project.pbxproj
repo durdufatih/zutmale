@@ -11,7 +11,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D96DD8E2DF69BCE00E67FD5 /* hello-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D96DD8E2DF69BCE00E67FD5 /* zutmale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zutmale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		3D96DD8F2DF69BCE00E67FD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D96DD8E2DF69BCE00E67FD5 /* hello-test.app */,
+				3D96DD8E2DF69BCE00E67FD5 /* zutmale.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,7 +73,7 @@
 				3D8554292DF80E7C008BA1DE /* GoogleGenerativeAI */,
 			);
 			productName = "hello-test";
-			productReference = 3D96DD8E2DF69BCE00E67FD5 /* hello-test.app */;
+			productReference = 3D96DD8E2DF69BCE00E67FD5 /* zutmale.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -275,7 +275,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetfatihdurdu.hello-test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = zutmale;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -314,7 +314,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mehmetfatihdurdu.hello-test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = zutmale;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
